@@ -1,0 +1,118 @@
+.mochi{
+	font-family: $fuente;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+.productopadre{
+	width: 100%;
+	background: $teciario;
+	flex-direction: row;
+}
+.productopadre img:hover{
+	transform: translate(10px, 20px);
+}
+.buzo{
+	font-family: $fuente;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+.productotio{
+	width: 100%;
+	background: $teciario;
+	flex-direction: row;
+}
+.productotio img:hover{
+	transform: translate(10px, 20px);
+}
+
+.productotia{
+	width: 100%;
+	background: $teciario;
+	flex-direction: row;
+}
+.productotia img:hover{
+	transform: translate(10px, 20px);
+}
+.rem{
+	font-family: $fuente;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+.productosobrina{
+	width: 100%;
+	background: $teciario;
+	flex-direction: row;
+}
+.productosobrina img:hover{
+	transform: translate(10px, 20px);
+}
+.productonieta{
+	width: 100%;
+	background: $teciario;
+	flex-direction: row;
+}
+.productonieta img:hover{
+	transform: translate(10px, 20px);
+
+}
+.buzo{
+	font-family: $fuente;
+	font-size: 30px;
+	color: $texto-secuandario;
+	text-align: center;
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: aparecer;
+}
+.rem{
+	font-family: $fuente;
+	font-size: 30px;
+	color: $texto-secuandario;
+	text-align: center;
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: aparecer;
+}
+.calzas{
+	font-family: $fuente;
+	font-weight: 600;
+	font-size: 30px;
+	color: $texto-secuandario;
+	text-align: center;
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: aparecer;
+}
+.mochi{
+	font-family: $fuente;
+	font-size: 30px;
+	color: $texto-secuandario;
+	text-align: center;
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: aparecer;
+}
+.otros{
+	font-family: $fuente;
+	font-weight: 600;
+	font-size: 30px;
+	color: $texto-secuandario;
+	text-align: center;
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: aparecer;
+}
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}

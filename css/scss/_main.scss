@@ -1,0 +1,221 @@
+body {
+	font-family: $fuente;
+	font-weight: $fuente-regular;
+
+}
+.respmenu a { 
+    color: $teciario;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid $texto-secuandario;
+    max-width: 200px;
+    background: $primario;
+    font-variant: small-caps;
+    text-shadow: 1px 1px $primario;
+  }
+  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;  
+  }
+   
+  .respmenu .fa-bars, .respmenu .fa-times {
+    font-size: 48px;
+    pointer-events: none;
+  }
+   
+  .respmenu input[type="checkbox"] {
+    opacity: 0; 
+  }
+   
+  .respmenu {
+    color: $teciario;
+    position: relative; 
+    background: $primario;
+    min-height: 48px;
+  }
+   
+  .respmenu nav {
+    display: none;
+  }
+   
+  .respmenu input:checked ~ nav {
+    display: block;
+  }
+   
+  .respmenu input:checked ~ .fa-bars {
+    display: none;
+  }
+   
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+  } 
+@media (min-whidth: 1166px){
+	.respmenu{
+	  display: none;
+	}
+}              
+.header{
+	min-height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 5px solid $teciario;
+	@media (max-width: 1166px){
+		display: none;
+	}
+}
+
+.father{
+	height: 140px;
+	background: $primario;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.logo{
+	height: 100;
+	width: 400;
+	flex-grow: 3;
+	flex-direction: row;
+	align-items: flex-end;
+
+}
+.hiji{
+	flex-grow: 5;
+}
+#menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+#menu ul li {
+ background-color: $primario;
+}
+#menu ul a {
+ display:block;
+ color: $teciario;
+ text-decoration:none;
+ font-weight:400;
+ font-size:20px;
+ padding:15px;
+ font-family: $fuente; 
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+#menu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+#menu ul li:hover {
+ background:$fondo-terciario;
+}
+#menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:$fondo-cuartenario;
+ padding:0;
+}
+#menu ul ul li {
+ float:none;
+ width:150px
+}
+#menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+#menu ul li:hover > ul {
+ display:block;
+ z-index: 1;
+}
+
+.ingresar{
+	flex-grow: 1;
+	padding-bottom: 70px;
+	overflow: hidden;
+	box-shadow: $texto-secuandario;
+}
+.cardinicio{
+	width: 25rem;
+	padding: 10px;
+	margin: 5px;
+}
+.categorias{
+	font-family: $fuente;
+	font-size: 30px;
+	text-align: center;
+}
+.destacados{
+	font-family: $fuente;
+	font-size: 30px;
+	text-align: center;
+	color: $texto-secuandario;
+}
+.padre{
+	width: 100%;
+	background: $teciario;
+}
+.padre img:hover{
+	transform: translate(10px, 20px);
+}
+.card-title{
+	font-family: $fuente;
+	font-size: 22px;
+}
+.precio{
+	font-size: 1.5rem;
+	color: $fondo-terciario;
+}
+#nuestronew{
+	font-family: $fuente;
+	font-size: 22px;
+	color: $primario;
+	background-color: $texto-cuartenario;
+	margin: 0px auto;
+	padding: 10px;
+	height: 250px;
+	width: 100%;
+	text-align: left;
+}
+.icons{
+	background-color: $fondo;
+	border-top-color: $teciario;
+	height: 250px;
+	color:$texto-cuartenario;
+	font-size: 1rem;
+	font-family: $fuente;
+
+}
+.btn-whatsapp {
+        display:block;
+        width:70px;
+        height:70px;
+        color: $teciario;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+       
+}
+.navbar{
+	background-color: $fondo;
+
+}
+nav-item {
+	color: $teciario;
+}
